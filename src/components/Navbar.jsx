@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Search, ShoppingCartOutlined } from '@material-ui/icons';
+import { SearchOutlined, ShoppingCartOutlined } from '@material-ui/icons';
 import { Badge } from '@material-ui/core';
 
 const Container = styled.div`
@@ -63,7 +63,7 @@ const Navbar = () => {
                               <Language>EN</Language>
                               <SearchContainer>
                                     <Input />
-                                    <Search style={{color:"gray", fontSize: 16}} />
+                                    <SearchOutlined style={{color:"gray", fontSize: 16}} />
                               </SearchContainer>
                         </Left>
                         <Center><Logo>GRACE.</Logo></Center>
