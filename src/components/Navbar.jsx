@@ -11,7 +11,7 @@ const Wrapper = styled.div`
       display: flex;
       justify-content: space-between;
       align-items: center;
-`;
+`
 const Left = styled.div`
       flex: 1;
       display: flex;
