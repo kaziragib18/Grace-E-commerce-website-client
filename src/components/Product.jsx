@@ -47,7 +47,6 @@ const Image = styled.img`
       z-index: 2;
 `;
 
-
 const Icon = styled.div`
       width: 40px;
       height: 40px;
