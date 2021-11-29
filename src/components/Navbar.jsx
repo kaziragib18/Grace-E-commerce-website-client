@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import { SearchOutlined, ShoppingCartOutlined } from '@material-ui/icons';
 import { Badge } from '@material-ui/core';
 import { mobile } from '../responsive';
+import { Link } from 'react-router-dom';
 
 const Container = styled.div`
       height: 60px;
@@ -75,7 +76,7 @@ const Navbar = () => {
                                     <SearchOutlined style={{ color: "gray", fontSize: 16 }} />
                               </SearchContainer>
                         </Left>
-                        <Center><Logo>GRACE.</Logo></Center>
+                        <Center><Logo><Link style={{textDecoration:"none", color:"black"}} to="/"> GRACE.</Link></Logo></Center>
                         <Right>
                               <MenuItem>  REGISTER</MenuItem>
                               <MenuItem>SIGN IN</MenuItem>
