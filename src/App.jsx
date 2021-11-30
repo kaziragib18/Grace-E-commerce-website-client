@@ -10,6 +10,7 @@ import Login from "./Pages/Login";
 import ProductList from "./Pages/ProductList";
 import Register from "./Pages/Register";
 import Cart from "./Pages/Cart";
+import Success from "./Pages/Success";
 import { Redirect } from "react-router";
 
 const App = () => {
@@ -39,6 +40,9 @@ const App = () => {
         </Route>
         <Route path="/cart">
           <Cart></Cart>
+        </Route>
+        <Route path="/success">
+          <Success></Success>
         </Route>
       </Switch>
     </Router >
