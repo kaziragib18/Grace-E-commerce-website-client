@@ -1,5 +1,6 @@
 import React from 'react'
 import { useLocation } from 'react-router'
+import { Link } from 'react-router-dom'
 
 const Success = () => {
       const location = useLocation()
@@ -15,7 +16,9 @@ const Success = () => {
                   }}
             >
                   <h1>Payment Successful</h1>
-                  <button style={{ padding: 10, marginTop: 20 }}>Go to Homepage</button>
+                  <Link to="/">
+                        <button style={{ padding: 10, marginTop: 20 }}>Go to Homepage</button>
+                  </Link>
             </div>
       )
 }

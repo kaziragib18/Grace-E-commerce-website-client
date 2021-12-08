@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import styled from 'styled-components';
-import { popularProducts } from '../data';
+// import { popularProducts } from '../data';
 import Product from './Product';
 import axios from "axios";
 
@@ -20,7 +20,7 @@ const Products = ({ cat, filters, sort }) => {
       useEffect(() => {
             const getProducts = async () => {
                   try {
-                        const res = await axios.get(cat ? `http://localhost:5000/api/products?category=${cat}` : "http://localhost:5000/api/products")
+                        const res = await axios.get(cat ? `https://powerful-spire-49241.herokuapp.com/api/products?category=${cat}` : "https://powerful-spire-49241.herokuapp.com/api/products")
                         setProducts(res.data);
                         // console.log(res);
                   } catch (err) { }

@@ -81,8 +81,12 @@ const Navbar = () => {
                         </Left>
                         <Center><Logo><Link style={{textDecoration:"none", color:"black"}} to="/"> GRACE.</Link></Logo></Center>
                         <Right>
+                              <Link style={{textDecoration:"none", color:"black"}} to="/register">
                               <MenuItem>REGISTER</MenuItem>
+                              </Link>
+                              <Link style={{textDecoration:"none", color:"black"}} to="/login">
                               <MenuItem>SIGN IN</MenuItem>
+                              </Link>
                               <Link to="/cart">
                               <MenuItem>
                                     <Badge badgeContent={quantity} color="primary">

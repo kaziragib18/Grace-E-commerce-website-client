@@ -254,7 +254,7 @@ const Cart = () => {
                                           <SummaryItemText>Total</SummaryItemText>
                                           <SummaryItemPrice>$ {cart.total}</SummaryItemPrice>
                                     </SummaryItem>
-                                    <StripeCheckout name="GRACE." image="https://avatars.githubusercontent.com/u/1486366?v=4"
+                                    <StripeCheckout name="GRACE." image="https://i.ibb.co/nQkTCg0/apple-touch-icon.png"
                                           billingAddress
                                           shippingAddress
                                           description={`Your Total is $${cart.total}`}
