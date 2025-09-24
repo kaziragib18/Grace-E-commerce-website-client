@@ -18,8 +18,8 @@ This project serves as a practical example for learning **React component struct
 ---
 
 ## 🛠️ Tech Stack
-- **Frontend:** React, Styled Components, JavaScript/TypeScript
-- **State Management:** React Context / Redux
+- **Frontend:** React, Styled Components, JavaScript
+- **State Management:** React Context
 - **Routing:** React Router
 - **Styling & Animations:** Styled Components, CSS
 - **Other:** Axios or Fetch API for handling data
